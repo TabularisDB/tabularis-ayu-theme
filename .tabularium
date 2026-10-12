@@ -1,0 +1,57 @@
+{
+  "$schema": "https://registry.tabularis.dev/manifest.schema.json?kind=theme",
+  "id": "ayu-theme",
+  "name": "Ayu for Tabularis",
+  "description": "The ayu palette for Tabularis in all three official variants: Ayu Light, Ayu Mirage and Ayu Dark.",
+  "license": "MIT",
+  "tags": [
+    "theme",
+    "ayu",
+    "dark",
+    "light",
+    "mirage"
+  ],
+  "readme": "README.md",
+  "homepage": "https://github.com/TabularisDB/tabularis-ayu-theme",
+  "support": {
+    "issues_url": "https://github.com/TabularisDB/tabularis-ayu-theme/issues"
+  },
+  "screenshots": [
+    {
+      "url": "https://raw.githubusercontent.com/TabularisDB/tabularis-ayu-theme/main/screenshots/ayu-mirage.png",
+      "caption": "Ayu Mirage",
+      "alt": "Tabularis with the Ayu Mirage theme: SQL console with ayu syntax colors above a result grid, books table expanded in the explorer."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/TabularisDB/tabularis-ayu-theme/main/screenshots/ayu-dark.png",
+      "caption": "Ayu Dark",
+      "alt": "Tabularis with the Ayu Dark theme: SQL console and result grid on a deep navy background with golden accents."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/TabularisDB/tabularis-ayu-theme/main/screenshots/ayu-light.png",
+      "caption": "Ayu Light",
+      "alt": "Tabularis with the Ayu Light theme: SQL console and result grid on a light background with orange accents."
+    }
+  ],
+  "version": "1.0.0",
+  "kind": "theme",
+  "min_runtime_version": "0.25.1-1",
+  "theme_schema_version": 1,
+  "theme_variants": [
+    {
+      "id": "light",
+      "name": "Ayu Light",
+      "file": "themes/light.json"
+    },
+    {
+      "id": "mirage",
+      "name": "Ayu Mirage",
+      "file": "themes/mirage.json"
+    },
+    {
+      "id": "dark",
+      "name": "Ayu Dark",
+      "file": "themes/dark.json"
+    }
+  ]
+}
